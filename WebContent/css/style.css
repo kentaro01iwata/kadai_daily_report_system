@@ -17,6 +17,13 @@ body {
     padding-left: 3%;
 }
 
+
+h1 {
+    font-size: 24px;
+    display: inline;
+}
+
+/* lesson14 chapter4.3ログイン調整の中で上書き指示
 h1 {
     width: 94%;
     padding-top: 17px;
@@ -24,6 +31,7 @@ h1 {
     font-size: 24px;
     color: #eeeeee;
 }
+*/
 
 h2 {
     font-size: 36px;
@@ -114,4 +122,27 @@ tr.row0 {
 
 select {
     height: 30px;
+}
+
+#header_menu {
+    width: 57%;
+    padding-top: 17px;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+#employee_name {
+    color: #cccccc;
+    width: 36%;
+    padding-right: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+#header a {
+    color: #eeeeee;
+}
+
+h1 a {
+    color: #eeeeee;
 }
